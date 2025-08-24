@@ -7,7 +7,7 @@ body {
 }
 
 .bg-site {
-    background-color: #fffdf1;
+    background-color: #fffef6;
 }
 
 .text-black {
@@ -20,4 +20,48 @@ body {
 
 .mt-title {
     margin-top: 15rem;
+}
+
+.mt-projects {
+    margin-top: 10rem;
+}
+
+.mt-project-start {
+    margin-top: 3rem;
+}
+
+.mb-bottom-page {
+    margin-bottom: 10rem;
+}
+
+.border-wyb {
+    border-radius: 20px;
+    border-bottom: #2d3436 5px solid;
+}
+
+.bg-wyb {
+    background-color: #f3f3f3;
+}
+
+.border-ff {
+    border-radius: 20px;
+    border-bottom: #000f66 5px solid;
+}
+
+.bg-ff {
+    background-image: url('images/ff_background.jpeg');
+    background-size: contain
+}
+
+.link-ff {
+    color: rgb(139, 222, 255);
+}
+
+.border-radius-20px {
+    border-radius: 20px;
+}
+
+.project-divide-space {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
