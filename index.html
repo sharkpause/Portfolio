@@ -6,6 +6,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -16,14 +18,13 @@
 
     <nav class="navbar navbar-expand-lg p-4 fixed-top container">
       <div class="container-fluid">
-        <a class="navbar-brand text-black" href="#">Gilbert's portfolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <img src="images/favicon.png" height="50px" class="rounded me-4">
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -44,9 +45,59 @@
     </nav>
     
     <div class="container text-center mt-title">
-      <h1>Hello, I’m Don 👋</h1>
-      <p class="lead">Welcome to my portfolio site!</p>
+      <h1>Hello, I’m Gilbert Donell Chen 👋</h1>
+      <p class="lead text-center mx-auto" style="width: 60%;">
+        I'm a software developer with 5+ years of experience with programming and still learning to always continously improve.
+        If you need someone motivated and passionate, you've found the right guy. 
+      </p>
     </div>
+
+    <div class="container text-center mt-projects">
+      <h1>Notable Projects</h1>
+
+      <div class="mt-project-start">
+        <div class="d-flex align-items-stretch">
+          <img src="images/winyourbattle_screenshot.png" width="600px" class="me-3 border-wyb shadow-lg">
+
+          <div class="lead shadow border-radius-20px ms-4 p-4 d-flex bg-wyb">
+            <div class="my-auto">
+              <h2 class="mb-4">WinYourBattle</h2>
+              <p class="mb-4">
+                An addiction tracker web app packed with essential features like the habit calendar,
+                streak graph, journal, and much more. Created with Laravel, Bootstrap, and MySQL. 
+                Hosted using Google Cloud Services and No-IP.
+              </p>
+              <a target="_blank" class="me-4 fw-bold text-decoration-none" 
+                 href="https://github.com/sharkpause/winyourbattle">GitHub page</a>
+              <a target="_blank" class="fw-bold text-decoration-none" 
+                 href="https://winyourbattle.ddns.net">Website link</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-divide-space"></div>
+        
+        <div class="d-flex align-items-stretch">
+          <img src="images/finfeed_screenshot.png" width="600px" class="me-3 border-ff shadow-lg">
+
+          <div class="lead shadow border-radius-20px ms-4 p-4 d-flex bg-ff">
+          <div class="my-auto">
+            <h2 class="mb-4 text-white">FinFeed</h2>
+
+            <p class="mt-4 mb-4 px-4 text-white">
+              A simple social media app with core features like posting, commenting, uploading images, etc.
+              Created using Express.js, Bulma, and MongoDB. Hosted locally
+            </p>
+
+            <span class="mt-4"></span>
+            <a target="_blank" class="me-4 fw-bold text-decoration-none link-ff" href="https://github.com/sharkpause/finfeed">GitHub page</a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mb-bottom-page"></div>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
