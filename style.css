@@ -1,0 +1,23 @@
+body {
+    font-family: 'Barlow';
+}
+
+.bg-transparent {
+    opacity: 1;
+}
+
+.bg-site {
+    background-color: #fffcea;
+}
+
+.text-black {
+    color: black;
+}
+
+.no-border {
+    border: none;
+}
+
+.mt-title {
+    margin-top: 15rem;
+}
