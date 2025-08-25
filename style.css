@@ -50,7 +50,7 @@ body {
 
 .bg-ff {
     background-image: url('images/ff_background.jpeg');
-    background-size: contain
+    background-size: cover;
 }
 
 .link-ff {
