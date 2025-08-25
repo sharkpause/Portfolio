@@ -26,7 +26,7 @@ body {
     margin-top: 10rem;
 }
 
-.mt-project-start {
+.mt-items-start {
     margin-top: 3rem;
 }
 
@@ -82,4 +82,20 @@ body {
 .divider-space {
     margin-top: 10rem;
     margin-bottom: 10rem;
+}
+
+.fs-lg {
+    font-size: 40px;
+}
+
+.p-skills-item {
+    padding: 70px;
+}
+
+.me-skills-item {
+    margin-right: 5rem;
+}
+
+.text-skills-color {
+    color: rgb(0, 140, 255);
 }
