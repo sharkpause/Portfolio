@@ -70,6 +70,10 @@ body {
     border-radius: 20px;
 }
 
+.border-radius-navbar {
+    border-radius: 50px;
+}
+
 .project-divide-space {
     margin-top: 3rem;
     margin-bottom: 3rem;
